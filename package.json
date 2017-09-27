@@ -1,0 +1,24 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan S. Machaod",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "mongoose": "^4.11.13",
+    "morgan": "^1.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonathanSMachado/Projeto"
+  },
+  "bugs": {
+    "url": "https://github.com/JonathanSMachado/Projeto/issues"
+  }
+}
