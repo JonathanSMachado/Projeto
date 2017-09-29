@@ -7,6 +7,12 @@ var routes = require('./routes');
 
 var app = express();
 
+app.set('view engine', 'ejs');
+app.engine('html', require('ejs').renderFile);
+app.set('views', './web-app/views');
+
+app.use(express.static('./web-app/public'));
+
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
