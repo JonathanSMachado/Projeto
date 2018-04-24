@@ -1,6 +1,6 @@
-var express = require('express');
-var hello = require('./hello/index');
-var category = require('./routes/categories/index');
+const express = require('express');
+const hello = require('./hello/index');
+const category = require('./routes/categories/index');
 
 
 module.exports = function (app) {
